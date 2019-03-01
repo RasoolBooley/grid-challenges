@@ -1,0 +1,73 @@
+nav li {
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+}
+
+img {
+    height: auto;
+    width: 100%;
+}
+
+p {
+    padding-top: 1em;
+}
+
+li {
+    border: 1px solid black;
+    padding: 1em 2.5em 1em 2.5em;
+    margin-left: 5em;
+}
+
+
+
+/* grid for the page */
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 5px;
+    padding: 2em;
+    grid-template-areas: 
+                            "metext metext mepic"
+                            "pp1 pp2 pp3"
+                            "facpic factext factext"
+}
+
+.metext {
+    grid-area: metext;
+    border: 1px solid black;
+    padding: 1em;
+}
+
+.mepic {
+    grid-area: mepic;
+    border: 1px solid black;
+}
+
+.pp1 {
+    grid-area: pp1;
+    border: 1px solid black;
+}
+
+.pp2 {
+    grid-area: pp2;
+    border: 1px solid black;
+}
+
+.pp3 {
+    grid-area: pp3;
+    border: 1px solid black;
+}
+
+.facpic {
+    grid-area: facpic;
+    border: 1px solid black;
+}
+
+.factext {
+    grid-area: factext;
+    border: 1px solid black;
+    padding: 4em;
+}
