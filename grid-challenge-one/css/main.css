@@ -19,6 +19,11 @@ li {
     margin-left: 5em;
 }
 
+nav {
+    padding: 1em;
+    border: 1px solid black;
+}
+
 
 
 /* grid for the page */
@@ -60,6 +65,18 @@ li {
     grid-area: pp3;
     border: 1px solid black;
 }
+
+/* 
+#wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 5px;
+    padding: 2em;
+    grid-template-areas: 
+                            "facpic factext factext"
+} */
+
 
 .facpic {
     grid-area: facpic;
